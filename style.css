@@ -1,0 +1,96 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.request{
+    display: flex;
+    color: white;
+}
+.booking{
+    background-color: orange
+}
+.application{
+    display: flex;
+    background-color: blue;
+}
+.comments{
+    display: flex;
+}
+.adverts{
+    display: flex;
+}
+.discover{
+    background-color: orange;
+    color: white;
+}
+.footercontent{
+    background-color: rgb(65, 62, 62);
+    color: white;
+}
+.footer{
+    display: flex;
+}
