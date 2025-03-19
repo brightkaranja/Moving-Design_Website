@@ -1,71 +1,83 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.document{
+    background-color: pink;
+}
+
+
+
+
+#href{
+    color:orange;
+}
+.customer{
+    size: 3cm;
+}
+.images{
+    background-color: blue;
+    
+}
+#imag{
+    width: 12cm;
+}
+#image{
+    width: 100%;
+}
+#home{
+    color: orange;
+}
+.contacts{
+    display: flex;
+    gap: 40cm;
+}
+.moving{
+    text-align: center;
+    margin-top: -15cm;
+    font-size: xx-large;
+    color: white;
+    font-weight: 500px;
+}
+.button{
+    background-color: orange;
+    color: white;
+    width: 3.5cm;
+    height: 1.5cm;
+}
+.year{
+    display: flex;
+}
+#icons{
+    width: 3cm;
+}
+.movingfun{
+    display: flex;
+    margin-top: 6cm;
+    gap: 3cm;
+}
+.what_we_do{
+    display: flex;
+    gap: 3cm;
+    
+}
+.storage{
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+.help{
+    display: flex;
+    gap: 3cm;
+}
+.why_chose_riaad{
+    display: flex;
+    gap: 3cm;
+    
+}
+.img{
+   width: 15cm;
+
+}
+#pic{
+    width: 10cm;
+}
 .request{
     display: flex;
     color: white;
@@ -76,21 +88,51 @@
 .application{
     display: flex;
     background-color: blue;
+    width: 100%;
 }
 .comments{
     display: flex;
 }
+.helpingmovers{
+    font-size: x-large;
+    margin-left: 5cm;
+}
+.button_discover{
+    background-color: black;
+    color: white;
+    width: 4cm;
+    height: 1.4cm;
+    margin-top: 1.15cm;
+}
+#admincomment{
+    color: white;
+    margin-top: -2.5cm;
+}
 .adverts{
     display: flex;
+    gap: 1cm;
+    margin-left: -6cm;
+    font-size: large;
 }
 .discover{
+    display: flex;
     background-color: orange;
+    gap: 14cm;
     color: white;
+    margin-left:-12cm ;
+    height: 3cm;
+    margin-top: 5cm;
 }
 .footercontent{
     background-color: rgb(65, 62, 62);
     color: white;
+    font-size: x-large;
+    margin-left: -12cm;
 }
 .footer{
     display: flex;
+    gap: 2.5cm;
+    margin-left: 3cm;
+    /* text-align: center; */
+    
 }
