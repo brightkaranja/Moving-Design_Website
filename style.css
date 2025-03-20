@@ -1,8 +1,9 @@
 .logos{
     display: flex;
     margin-bottom: 2cm;
-    size: 44cm;
     gap: 1cm;
+    margin-top: 2cm;
+
 }
 #href{
     color:orange;
@@ -10,9 +11,20 @@
 .customer{
     size: 3cm;
 }
+.square{
+    border: blue 8px solid;
+    height: 10cm; width: 10cm;
+    position: absolute;
+    margin-top: -607px; margin-left: 14cm;
+}
 .images{
     background-color: blue;
+    /* background-position: bottom; */
     
+}
+#movingtogether{
+    width: 10cm;
+    height: 9cm;
 }
 #imag{
     width: 12cm;
@@ -28,11 +40,25 @@
     gap: 40cm;
 }
 .moving{
+    background-image:url(images/Caspian-Header-Decreasing-1.png);
+    background-size: cover;
+    padding: 200px;
+    background-position: center;
     text-align: center;
-    margin-top: -15cm;
-    font-size: xx-large;
+    position: relative;
     color: white;
-    font-weight: 500px;
+}
+.moving h1{
+    position: relative;
+    font-size: 80px;
+
+}
+.moving button{
+    position: relative;
+    border: none;
+    z-index: 2;
+    padding-top: 0.8cm;
+    padding-bottom: 0.8cm
 }
 .button{
     background-color: orange;
@@ -42,6 +68,8 @@
 }
 .year{
     display: flex;
+    margin-top: 2cm;
+    font-size: large;
 }
 #icons{
     width: 5cm;
@@ -51,8 +79,8 @@
 }
 .movingfun{
     display: flex;
-    margin-top: 6cm;
-    gap: cm;
+    margin-top: 3cm;
+    gap: 5cm;
 }
 .what_we_do{
     display: flex;
@@ -133,6 +161,7 @@
     background-color: blue;
    font-size: larger;
     width: 31cm; 
+    width: 28.5cm;
 }
 .updates{
     margin-left: 4cm;
@@ -205,20 +234,57 @@
     background-color: orange;
     gap: 14cm;
     color: white;
-    margin-left:-12cm ;
+    margin-left:-14cm ;
     height: 3cm;
     margin-top: 5cm;
+    width: 46.5cm;
 }
 .footercontent{
     background-color: rgb(65, 62, 62);
     color: white;
     font-size: x-large;
-    margin-left: -12cm;
+    margin-left: -14cm;
+    width: 46.5cm;
 }
 .footer{
     display: flex;
     gap: 2.5cm;
     margin-left: 3cm;
     /* text-align: center; */
+    
+}
+.hr-lines{
+    position: relative;
+    max-width: 500px;
+    margin: 40px auto;
+    text-align: center;
+    color: rgb(44, 38, 38);
+}
+.hr-lines:before{
+    content:"";
+    height: 2px;
+    width: 200px;
+    background:rgb(122, 107, 107) ;
+    display: block;
+    position: absolute;
+    top: 35%;
+    left: -17cm;
+    width: 33cm;
+}
+#twitter{
+    color: orange;
+}
+#arrowup{
+    margin-left: 25cm;
+    background-color: orange;
+    border-radius: 114%;
+    padding: 0.3cm;
+    margin-top: -3cm;
+}
+.icon{
+    margin-top: 1cm;
+}
+.copyright{
+    margin-left: 16cm;   
     
 }
