@@ -1,10 +1,15 @@
 .document{
-    background-color: pink;
+    /* background-color: pink; */
 }
 
 
 
-
+.logos{
+    display: flex;
+    margin-bottom: 2cm;
+    size: 44cm;
+    gap: 1cm;
+}
 #href{
     color:orange;
 }
@@ -45,16 +50,21 @@
     display: flex;
 }
 #icons{
-    width: 3cm;
+    width: 5cm;
+}
+#since{
+    font-size: larger;
 }
 .movingfun{
     display: flex;
     margin-top: 6cm;
-    gap: 3cm;
+    gap: cm;
 }
 .what_we_do{
     display: flex;
-    gap: 3cm;
+    gap: 4cm;
+    font-size: larger;
+    margin-left: -5cm;
     
 }
 .storage{
@@ -65,10 +75,14 @@
 .help{
     display: flex;
     gap: 3cm;
+    margin-left: -5cm;
+    margin-top: 2cm;
 }
 .why_chose_riaad{
     display: flex;
     gap: 3cm;
+    margin-left: -5cm;
+    margin-top: 4cm;
     
 }
 .img{
@@ -81,17 +95,84 @@
 .request{
     display: flex;
     color: white;
+    margin-left: -12cm;
+    font-size: larger;
+    height: 10cm;
 }
 .booking{
-    background-color: orange
+    background-color: orange;
+    width: 15cm;
+    text-align: center;
+    font-size: x-large;
+
+}
+#tick{
+    background-color: orange;
+    color: aliceblue;
+    /* width: 1cm; */
+    /* height: 0.7cm; */
+    border-radius: 40%;
+    padding: 0.3cm;
+}
+#helpservices{
+    font-size: larger;
+}
+.helpservices{
+    display: flex;
+    margin-bottom: 2cm;
+    margin-top: 1cm;
+    font-size: larger;
+}
+.verify{
+    background-color: aliceblue;
+    width: 5cm;
+    font-size: larger;
+    margin-bottom: -1cm;
+}
+.movingimg{
+    margin-left: -12cm;
+    width: 60%;
 }
 .application{
     display: flex;
+    gap: 1.5cm;
     background-color: blue;
-    width: 100%;
+   font-size: larger;
+    width: 31cm; 
+}
+.updates{
+    margin-left: 4cm;
+    margin-bottom: 4cm;
+    margin-top: 4cm;
+}
+.testimony{
+    margin-top: 3cm;
+    margin-left: 4cm;
+}
+.email{
+    display: flex;
+    gap: 10cm;
+    margin-left: -2cm;
 }
 .comments{
     display: flex;
+    margin-left: -6cm;
+    gap: 3cm;
+    font-size: larger;
+}
+#quote{
+    color: aliceblue;
+    margin-top: 2cm;
+    margin-left: 3cm;
+    background-color: blue;
+    /* width: 1cm; */
+    /* height: 1.5cm; */
+    border-radius: 114%;
+    padding: 0.3cm;
+    /* align-items: center; */
+}
+#name{
+    color: orange;
 }
 .helpingmovers{
     font-size: x-large;
@@ -104,9 +185,20 @@
     height: 1.4cm;
     margin-top: 1.15cm;
 }
+.newsarticles{
+    /* align-items: center; */
+    margin-left: 6.5cm;
+    margin-bottom: 2cm;
+    
+}
+#news{
+    font-size: xxx-large;
+}
 #admincomment{
-    color: white;
-    margin-top: -2.5cm;
+    color: aliceblue;
+    margin-top: -2.8cm;
+    font-weight: 500;
+    margin-left: 1cm;
 }
 .adverts{
     display: flex;
